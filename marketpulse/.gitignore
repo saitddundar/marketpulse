@@ -1,48 +1,52 @@
-### Maven ###
-target/
-!.mvn/wrapper/maven-wrapper.jar
-.mvn/timing.properties
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
+# Genel dosyalar
+HELP.md
 
+# Derleme ve yapı dosyaları
+target/
+build/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDE dosyaları
 ### IntelliJ IDEA ###
 .idea/
 *.iws
 *.iml
 *.ipr
-out/
 
-### OS Files ###
-.DS_Store
-Thumbs.db
+### STS (Spring Tool Suite) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-### Logs ###
-*.log
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-### Environment Files ###
-.env
-*.env
-
-### Java ###
-*.class
-
-### Other common ###
-*.swp
-*.swo
-*.bak
-*.tmp
-*.~
-*~
-
+### VS Code ###
 .vscode/
 
-### Git ###
-*.orig
+# Log dosyaları
+*.log
 
-### Local test and development ###
-*.local
+# Çeşitli
+*.bak
+*.swp
+*.tmp
+*.old
+
+# Çevresel değişkenler ve hassas bilgiler
+.env
+.env.local
+.env.*
+secrets/
