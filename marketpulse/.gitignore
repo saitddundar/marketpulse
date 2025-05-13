@@ -1,0 +1,48 @@
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### OS Files ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+
+### Environment Files ###
+.env
+*.env
+
+### Java ###
+*.class
+
+### Other common ###
+*.swp
+*.swo
+*.bak
+*.tmp
+*.~
+*~
+
+.vscode/
+
+### Git ###
+*.orig
+
+### Local test and development ###
+*.local
